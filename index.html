@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Motos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+<header class="py-3">
+    <div class="container d-flex justify-content-between">
+        <h1>Motos Premium</h1>
+        <nav>
+            <a href="#about" class="text-white mx-2">Sobre</a>
+            <a href="#models" class="text-white mx-2">Modelos</a>
+            <a href="#contact" class="text-white mx-2">Contacto</a>
+        </nav>
+    </div>
+</header>
+
+<section class="container main">
+    <div>
+        <h2>Bienvenido a Motos Premium</h2>
+        <p>Descubre la mejor selección de motos del mercado, diseñadas para la aventura.</p>
+    </div>
+    <img src="./templates/moto.jpg" alt="Imagen de moto" class="img-fluid">
+</section>
+
+<section class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Modelo 1</h3>
+                    <p class="card-text">Moto deportiva con un diseño aerodinámico y potente motor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Modelo 2</h3>
+                    <p class="card-text">Cruiser cómoda para largos viajes con estilo clásico.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Modelo 3</h3>
+                    <p class="card-text">Adventure bike ideal para off-road y terrenos difíciles.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container mt-5" id="contact">
+    <h2>Contacto</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" class="form-control" id="email" name="email">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
+<footer class="text-center py-3" style="background: #333; color: white;">
+    <p>&copy; 2025 Motos Premium. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
