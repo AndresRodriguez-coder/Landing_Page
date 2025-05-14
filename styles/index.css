@@ -1,13 +1,12 @@
-        header {
-            background: #343a40;
-            color: white;
-        }
-        .main {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            align-items: center;
-            padding: 20px 0;
-        }
-        .card {
-            margin: 10px;
-        }
+header {
+    background: #343a40; /* Color de fondo del header */
+    color: white; /* Color del texto */
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.card {
+    margin: 10px;
+}
